@@ -1,0 +1,28 @@
+{
+  "name": "@siriussupreme/cancel-token-factory",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoSirius/cancel-token-factory.git"
+  },
+  "keywords": [],
+  "author": "SiriusSupreme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuoSirius/cancel-token-factory/issues"
+  },
+  "homepage": "https://github.com/GuoSirius/cancel-token-factory#readme",
+  "dependencies": {
+    "flyio": "^0.6.14",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
